@@ -1,0 +1,57 @@
+Static Timing Analysis:
+ 
+ABC: WireLoad = "none"  Gates =    209 ( 20.1 %)   Cap = 47.1 ff (  1.9 %)   Area =    22464.00 ( 95.7 %)   Delay =  2362.85 ps  ( 15.3 %)               
+ABC: Path  0 --       4 : 0    2 pi      A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout = 127.5 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --      78 : 1    3 INVX8   A = 160.00  Df =  33.3   -5.2 ps  S =  25.2 ps  Cin =109.7 ff  Cout =  58.8 ff  Cmax =3333.6 ff  G =   53  
+ABC: Path  2 --     157 : 2    3 NAND2X1 A =  96.00  Df = 183.6  -40.8 ps  S = 218.0 ps  Cin = 17.8 ff  Cout =  62.4 ff  Cmax = 403.1 ff  G =  348  
+ABC: Path  3 --     168 : 3    5 AOI21X1 A = 128.00  Df = 426.8   -3.1 ps  S = 357.1 ps  Cin = 25.3 ff  Cout = 108.5 ff  Cmax = 426.2 ff  G =  428  
+ABC: Path  4 --     180 : 3    4 OAI21X1 A =  92.00  Df = 706.0  -86.3 ps  S = 308.1 ps  Cin = 23.8 ff  Cout =  84.2 ff  Cmax = 405.5 ff  G =  352  
+ABC: Path  5 --     205 : 3    4 AOI21X1 A = 128.00  Df = 920.8  -40.5 ps  S = 304.2 ps  Cin = 25.3 ff  Cout =  85.8 ff  Cmax = 426.2 ff  G =  338  
+ABC: Path  6 --     224 : 3    4 OAI21X1 A =  92.00  Df =1194.9 -123.3 ps  S = 306.7 ps  Cin = 23.8 ff  Cout =  85.3 ff  Cmax = 405.5 ff  G =  357  
+ABC: Path  7 --     229 : 2    2 AND2X2  A = 128.00  Df =1373.3  -68.3 ps  S = 111.3 ps  Cin = 17.9 ff  Cout =  54.1 ff  Cmax = 831.0 ff  G =  303  
+ABC: Path  8 --     244 : 3    3 OAI21X1 A =  92.00  Df =1531.1  -22.3 ps  S = 262.5 ps  Cin = 23.8 ff  Cout =  71.8 ff  Cmax = 405.5 ff  G =  300  
+ABC: Path  9 --     261 : 3    2 NAND3X1 A = 144.00  Df =1725.0  -90.9 ps  S = 232.3 ps  Cin = 22.3 ff  Cout =  49.2 ff  Cmax = 386.4 ff  G =  219  
+ABC: Path 10 --     262 : 3    4 NAND3X1 A = 144.00  Df =2006.6  -89.6 ps  S = 358.7 ps  Cin = 22.3 ff  Cout =  93.5 ff  Cmax = 386.4 ff  G =  418  
+ABC: Path 11 --     269 : 3    2 NAND3X1 A = 144.00  Df =2159.8  -62.5 ps  S = 229.0 ps  Cin = 22.3 ff  Cout =  44.6 ff  Cmax = 386.4 ff  G =  199  
+ABC: Path 12 --     272 : 3    1 AOI21X1 A = 128.00  Df =2275.5  -42.7 ps  S = 163.6 ps  Cin = 25.3 ff  Cout =  26.5 ff  Cmax = 426.2 ff  G =  104  
+ABC: Path 13 --     278 : 3    1 OAI21X1 A =  92.00  Df =2362.8  -61.3 ps  S =  84.9 ps  Cin = 23.8 ff  Cout =   0.0 ff  Cmax = 405.5 ff  G =    0  
+
+
+Longest Path Summary:
+Path _417_/CLK to _398_/D delay 3659.56 ps
+
+Design Summary:
+
+8. Printing statistics.
+
+=== controller ===
+
+   Number of wires:                191
+   Number of wire bits:            248
+   Number of public wires:          10
+   Number of public wire bits:      39
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                243
+     AND2X1                          1
+     AND2X2                          6
+     AOI21X1                        34
+     BUFX2                           6
+     DFFSR                          34
+     INVX1                          28
+     INVX2                           3
+     INVX4                           4
+     INVX8                           1
+     NAND2X1                        30
+     NAND3X1                        12
+     NOR2X1                         11
+     NOR3X1                          4
+     OAI21X1                        56
+     OAI22X1                         4
+     OR2X2                           4
+     XNOR2X1                         4
+     XOR2X1                          1
+
+   Chip area for this module: 46400.000000
+
